@@ -13,7 +13,7 @@ use self::misc::get_account_data;
 declare_id!("HMDRWmYvL2A9xVKZG8iA1ozxi4gMKiHQz9mFkURKrG4"); // ! UPDATE ME
 
 #[program]
-pub mod orao_vrf {
+pub mod guessing_game {
 
     use super::*;
 

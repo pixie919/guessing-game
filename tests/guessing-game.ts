@@ -7,14 +7,14 @@ import {
 } from "@orao-network/solana-vrf";
 
 import { BN } from "bn.js";
-import { OraoVrf } from "../target/types/orao_vrf";
+import { GuessingGame } from "../target/types/guessing_game";
 
 describe("orao-vrf", () => {
 	// Configure the client to use the local cluster.
 	const provider = anchor.AnchorProvider.env();
 	anchor.setProvider(provider);
 
-	const program = anchor.workspace.OraoVrf as Program<OraoVrf>;
+	const program = anchor.workspace.GuessingGame as Program<GuessingGame>;
 
 	let force_seed = anchor.web3.Keypair.generate().publicKey.toBuffer();
 

@@ -6,7 +6,7 @@ edition = "2021"
 
 [lib]
 crate-type = ["cdylib", "lib"]
-name = "orao_vrf"
+name = "guessing_game"
 
 [features]
 no-entrypoint = []
